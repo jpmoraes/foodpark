@@ -737,3 +737,35 @@ section {
   font-weight: bolder;
   margin-top: 15px;
 }
+
+/* Estilos gerais */
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 768px) {
+  .logo1 {
+    width: 50px;
+    height: 80px;
+    margin-left: 10px;
+  }
+  margin .logo2 {
+    width: 50px;
+    height: 90px;
+    margin-right: 40px;
+  }
+
+  header h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* Estilos para telas médias */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos específicos para telas médias */
+}
+
+/* Estilos para telas grandes */
+@media screen and (min-width: 1025px) {
+  /* Estilos específicos para telas grandes */
+}

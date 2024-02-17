@@ -27,7 +27,7 @@
     <title>FOOD PARK SALVADOR</title>
   </head>
  
-  <body style="height: 100vh;">
+  <body style="height: 100vh;" >
     <header style="position: relative;">
       <div class="container_logo">
         <a href="#index.php"
