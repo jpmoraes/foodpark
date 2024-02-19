@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="View/css/style_carousel.css" />
     <link rel="stylesheet" href="View/css/style_menu.css" />    
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"/>
     <link rel="stylesheet" href="View/css/style_index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+    <link rel="stylesheet" href="View/css/style_cardapio.css" />    
    
     <link
       rel="stylesheet"
@@ -183,24 +185,20 @@
     </section>
 
 
-
-
-
-
         <section class="caixa2" id="lanche"> 
           <div class="lanche_hamburguer" id="hamburguer">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img id="caixa2-img1" class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img id="caixa2-img2" class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="" onclick= "OpenModal()">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="" onclick= "OpenModal()">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="" onclick= "OpenModal()">
           </div>
           </section>
 
 
           <section class="caixa7" id="lanche">
             <div class="lanche_pizza" id="pizza">
-              <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-              <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+              <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+              <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
             </div>
           
             </section>
@@ -208,9 +206,9 @@
 
           <section class="caixa3" id="lanche">
             <div class="lanche-coxinha" id="coxinha" >
-              <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-              <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-              <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+              <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+              <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+              <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
             </div>
           
             </section>
@@ -220,7 +218,7 @@
 
             <section class="caixa5" id="lanche">
               <div class="lanche_3" id="mexicano">
-                <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                <img class="img-caixa-lanche" class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
               
               </div>
               </section>
@@ -231,8 +229,8 @@
 
               <section class="caixa5" id="lanche">
                 <div class="lanche_crepe" id="crepe">
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
                 
                 </div>
                 </section>
@@ -240,16 +238,16 @@
 
               <section class="caixa5" id="oriental">
                 <div class="lanche_oriental" >
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
                 
                 </div>
                 </section>
 
                 <section class="caixa5" id="lanche">
                   <div class="lanche_churrasco" id="churrasco" >
-                    <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-                    <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                    <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                    <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
                   </div>
                 
                   </section>
@@ -259,8 +257,8 @@
 
               <section class="caixa5" id="lanche">
                 <div class="lanche_feijoada" id="feijoada" >
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
                 
                 </div>
                 </section>
@@ -269,7 +267,7 @@
 
               <section class="caixa5" id="lanche">
                 <div class="lanche_bauru" id="bauru" >
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
                
                 </section>
   
@@ -277,9 +275,9 @@
 
               <section class="caixa5" id="lanche">
                 <div class="lanche_acai" id="acai" >
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-                  <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+                  <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
                 </div>
                 </section>
   
@@ -288,9 +286,9 @@
 
           <section class="caixa3" id="lanche">
           <div class="lanche_hotDog" id="hotDog" > //hotDog
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
           </div>
           </section>
               
@@ -298,23 +296,31 @@
 
           <section class="caixa3" id="lanche">
           <div class="lanche_pastel" id="pastel">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
           </div>
           </section>
               
 
-    
-
-          
 
           <section class="caixa6" id="lanche">
           <div class="lanche_italiano" id="italiano">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
-            <img height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
+            <img class="img-caixa-lanche" height="130px " width="140px" style="margin-top:  829px;" src="View/imagens_parte/Group 93.svg" alt="">
           </div>
           </section>
-          
+
+              <!-- MODAL DE CARDÁPIO -->
+
+              <div id="modal" class="ModalOverlay" style="display: none;">
+                <div class="ModalContent">
+                  <h3 class="ModalTitle">CARDÁPIO</h3><br>
+                  <h4 class="ModalDescription"></h4>
+                    <button class="CloseButton" onclick="Close()">Fechar</button>   
+                </div>
+            </div>
+
+
           
 
           <section class="passeio">
@@ -394,4 +400,5 @@
 </body>
 <!-- <script src="View/js/carousel.js"></script> -->
 <script src="View/js/carousel.js"></script>
+<script src="View/js/cardapio.js"></script>
 </html>

@@ -1,4 +1,4 @@
-.ModalOverlay{
+.ModalOverlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,32 +8,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2000;
 }
 
-.ModalContent{
+.ModalContent {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   max-width: 600px;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.ModalTitle{
-  color: #333;
+.ModalTitle {
+  color: #00305b;
+  text-align: center;
+  font-size: 30px;
 }
 
-.ModalDescription{
-  color: #555;
+.ModalDescription {
+  color: #00305b;
 }
 
-.CloseButton{
-  background: #c2b990;
+.CloseButton {
+  background: #fbab18;
   color: #fff;
   padding: 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 10px;
+  margin: auto;
+  text-align: center;
 }
 
+.img-caixa-lanche {
+  z-index: 2000;
+}
+
+@media screen and (max-width: 768px) {
+  .ModalContent {
+    width: 50%;
+  }
+}

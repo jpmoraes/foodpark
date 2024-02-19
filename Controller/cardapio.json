@@ -1,0 +1,43 @@
+{
+  "caixa2-img1": [
+    {
+      "id": 1,
+      "name": "Hambúrguer de Frango",
+      "description": "Delicioso hambúrguer de frango grelhado com alface, tomate e queijo em um pão de hambúrguer integral.",
+      "price": "R$ 15,50"
+    },
+    {
+      "id": 2,
+      "name": "Hambúrguer Vegetariano",
+      "description": "Saboroso hambúrguer vegetariano com uma mistura especial de legumes e temperos em um pão de hambúrguer integral.",
+      "price": "R$ 18,50"
+    },
+    {
+      "id": 3,
+      "name": "Hambúrguer de Carne",
+      "description": "Clássico hambúrguer de carne bovina com alface, cebola, queijo e molho especial em um pão de hambúrguer.",
+      "price": "R$ 17,50"
+    }
+  ],
+
+  "caixa2-img2": [
+    {
+      "id": 1,
+      "name": "Hambúrguer de Todo-duro",
+      "description": "Delicioso hambúrguer de frango grelhado com alface, tomate e queijo em um pão de hambúrguer integral.",
+      "price": "R$ 10,50"
+    },
+    {
+      "id": 2,
+      "name": "Hambúrguer Popó Freitas",
+      "description": "Saboroso hambúrguer vegetariano com uma mistura especial de legumes e temperos em um pão de hambúrguer integral.",
+      "price": "R$ 09,50"
+    },
+    {
+      "id": 3,
+      "name": "Hambúrguer de Maguila",
+      "description": "Clássico hambúrguer de carne bovina com alface, cebola, queijo e molho especial em um pão de hambúrguer.",
+      "price": "R$ 13,50"
+    }
+  ]
+}
